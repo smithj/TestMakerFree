@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/TestMakerFreeWebApp_UpdatedProject/TestMakerFreeWebApp_UpdatedProject.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
